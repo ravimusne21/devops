@@ -1,0 +1,64 @@
+    1  git --version
+    2  sudo apt update
+    3  sudo dnf install git
+    4  mkdir devops
+    5  ll
+    6  pwd
+    7  df -h
+    8  ls -lrth
+    9  pwd
+   10  cd devops/
+   11  ll
+   12  pwd
+   13  git init
+   14  ls -lrth
+   15  vim test.txt
+   16  git --version
+   17  ll
+   18  git status
+   19  git add test.txt
+   20  ll
+   21  git status
+   22  git commit -m "New test file"
+   23  git remote add origin https://github.com/ravimusne21/devops.git
+   24  ll
+   25  cd devops/
+   26  ll
+   27  git remote add origin https://github.com/ravimusne21/devops.git
+   28  git remote -v
+   29  git push origin master
+   30  git remote set-url origin https://github.com/ravimusne21/devops.git
+   31  ll
+   32  git push origin master
+   33  ll
+   34  vim test.txt
+   35  git push origin master
+   36  git status
+   37  git add test.txt
+   38  ll
+   39  git status
+   40  git commit -m "updated file"
+   41  git status
+   42  git push origin master
+   43  history
+   44  ll
+   45  cd devops/
+   46  ll
+   47  top
+   48  ll
+   49  cd..
+   50  ll
+   51  cd..
+   52  cd ..
+   53  ll
+   54  mkdir GitHub
+   55  ll
+   56  cd GitHub/
+   57  ll
+   58  git clone https://github.com/ravimusne21/github-practice.git
+   59  ll
+   60  cd github-practice/
+   61  ll
+   62  top
+   63  history
+
